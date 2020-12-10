@@ -1,0 +1,8 @@
+spring:
+  redis:
+    host: 192.168.188.129
+    port: 6379
+    password: 123456
+  session:
+    store-type: redis
+    timeout:  3600  # µ•Œª «√Î
